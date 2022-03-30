@@ -9,5 +9,8 @@ namespace ReversiRestApi.Model
         Game GetGame(string gameToken);
         Game GetGameFromPlayerToken(string playerToken);
         public List<Game> GetWaitingGames();
+        void UpdateGame(Game game);
+        Game GetGameById(int id);
+
     }
 }

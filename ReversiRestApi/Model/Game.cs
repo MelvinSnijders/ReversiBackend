@@ -127,7 +127,7 @@ namespace ReversiRestApi.Model
             };
         }
 
-        private bool AnyMovePossible(Color kleur)
+        public bool AnyMovePossible(Color kleur)
         {
             if (kleur == Color.None)
                 throw new Exception("Kleur mag niet gelijk aan Geen zijn!");

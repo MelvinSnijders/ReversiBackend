@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ReversiRestApi\ReversiRestApi.csproj" />
-    <ProjectReference Include="..\Server\ReversiRestApi.csproj" />
   </ItemGroup>
 
 </Project>

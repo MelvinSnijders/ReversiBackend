@@ -53,5 +53,14 @@ namespace ReversiRestApi.Model
             return Games.Where(g => g.Player2Token == null).ToList();
         }
 
+        public void UpdateGame(Game game)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Game GetGameById(int id)
+        {
+            return Games.FirstOrDefault(g => g.ID == id);
+        }
     }
 }
